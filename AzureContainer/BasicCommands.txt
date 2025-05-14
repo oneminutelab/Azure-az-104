@@ -1,0 +1,7 @@
+docker pull nginx
+docker images
+docker tag nginx loginservername/appname
+docker tag nginx loginservername/appname:latest
+docker login loginservername
+docker push loginservername/appname
+docker push loginservername/appname:latest
